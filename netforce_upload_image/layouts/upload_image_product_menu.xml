@@ -1,0 +1,5 @@
+<inherit inherit="product_menu">
+    <item string="Product Categories" position="before">
+        <item string="Upload Image Product" action="upload_image" action_options='{"model_name":"product","next" : "product"}'/>
+    </item>
+</inherit>

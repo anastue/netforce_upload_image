@@ -1,0 +1,12 @@
+<form model="upload.image">
+    <head>
+        <field name="name"/>
+    </head>
+    <group form_layout="stacked">
+        <field name="file" onchange="onchange_file"/>
+        <field name="is_show" invisible="1"/>
+    </group>
+    <foot replace="1">
+        <button string="Import" icon="arrow-right" method="do_import" type="primary" attrs='{"invisible":[["is_show","=",false]]}'/>
+    </foot>
+</form>

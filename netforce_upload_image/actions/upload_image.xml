@@ -1,0 +1,6 @@
+<action>
+    <field name="view">model_view</field>
+    <field name="model">upload.image</field>
+    <field name="template">upload_image</field>
+    <field name="menu">gen_menu</field>
+</action>
